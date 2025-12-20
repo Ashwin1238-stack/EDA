@@ -18,10 +18,4 @@ EDA is an essential step in any data analysis or data science workflow before ap
 ---
 
 ## 🔍 EDA Workflow
-
-### 1️⃣ Import Required Libraries
-```python
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
+Cleaning - Analysis - Visualisation
