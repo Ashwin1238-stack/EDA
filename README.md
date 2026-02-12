@@ -30,15 +30,15 @@ ________________________________________
 •	Jupyter Notebook
 ________________________________________
 📈 Key Analysis Performed
-1️⃣ Job Demand Analysis
+-1️⃣ Job Demand Analysis
 •	Identified top hiring roles using value counts.
-2️⃣ Salary Analysis
+-2️⃣ Salary Analysis
 •	Compared salary ranges across different job titles.
-3️⃣ Location-wise Distribution
+-3️⃣ Location-wise Distribution
 •	Analyzed which cities have the highest job opportunities.
-4️⃣ Year-wise Hiring Trend
+-4️⃣ Year-wise Hiring Trend
 •	Visualized hiring growth over different years.
-5️⃣ Experience vs Salary
+-5️⃣ Experience vs Salary
 •	Compared salary distribution across experience levels.
 📊 Project Insights
 •	Certain job roles show significantly higher demand.
