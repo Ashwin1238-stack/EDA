@@ -71,36 +71,6 @@ Compared salary distribution across experience levels.
 
 ---
 
-## 💻 Sample Python Code
-
-```python
-import pandas as pd
-import matplotlib.pyplot as plt
-
-# Load Dataset
-df = pd.read_excel("Job_Market_Dataset.xlsx")
-
-# Job Demand Analysis
-job_count = df["Job Title"].value_counts()
-
-plt.figure()
-job_count.plot(kind="bar")
-plt.title("Job Demand by Title")
-plt.xlabel("Job Title")
-plt.ylabel("Count")
-plt.show()
-
-# Location-wise Distribution
-location_count = df["Location"].value_counts()
-
-plt.figure()
-location_count.plot(kind="pie", autopct="%1.1f%%")
-plt.title("Job Distribution by Location")
-plt.show()
-```
-
----
-
 ## 📊 Project Insights
 
 - Certain job roles show significantly higher demand  
@@ -125,7 +95,3 @@ This project provides structured insights into job market trends and helps:
 - Build interactive dashboard using Power BI or Streamlit  
 - Implement salary prediction using Machine Learning  
 - Deploy project using Streamlit Cloud  
-
----
-
-
