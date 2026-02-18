@@ -1,89 +1,99 @@
-📊 Telecom Customer Churn Prediction
-📌 Project Overview
+# 📊 Telecom Customer Churn Prediction
 
-This project focuses on predicting customer churn for a Telecom company using Machine Learning models. The main objective is to identify key factors influencing churn and provide actionable business insights.
+## 📌 Project Overview
+This project predicts customer churn for a Telecom company using Machine Learning models.
+The goal is to identify key factors influencing churn and provide actionable business insights.
 
-Customer churn prediction helps telecom companies reduce customer loss and improve retention strategies.
+---
 
-🎯 Objective
+## 🎯 Objective
+- Predict customer churn (Yes / No)
+- Perform Encoding and Feature Scaling
+- Train Logistic Regression and Random Forest models
+- Evaluate models using classification metrics
+- Identify the most impactful feature affecting churn
 
-Predict whether a customer will churn or not.
+---
 
-Apply data preprocessing techniques (Encoding & Scaling).
+## 📂 Dataset Details
+- Total Records: 2500+
+- Features: 7 Independent Variables
+- Target: Churn
 
-Train and evaluate Logistic Regression and Random Forest models.
+### Numerical Features
+- Tenure_Months
+- Monthly_Charges
+- Total_Charges
 
-Identify the most influential feature affecting churn.
+### Categorical Features
+- Contract_Type
+- Internet_Service
+- Payment_Method
 
-Provide business recommendations based on model insights.
+---
 
-📂 Dataset Information
+## 🧹 Data Preprocessing
+- Checked missing values
+- Applied Label Encoding
+- Applied Standard Scaling
+- Performed Train-Test Split
 
-Total Records: 2500+
+---
 
-Features: 7 Independent Variables
+## 🤖 Models Used
 
-Target Variable: Churn (Yes / No)
+### 1. Logistic Regression
+- Used for classification
+- Interpretable via coefficient analysis
 
-🔢 Numerical Features
+### 2. Random Forest Classifier
+- Ensemble model
+- Provides feature importance
 
-Tenure_Months
+---
 
-Monthly_Charges
+## 📊 Evaluation Metrics
+- Confusion Matrix
+- Accuracy Score
+- Precision
+- Recall
+- F1-Score
 
-Total_Charges
+---
 
-🏷️ Categorical Features
+## 🔍 Key Insight
+Logistic Regression coefficient analysis revealed that:
 
-Contract_Type
+**Poor Internet Service is the most influential factor affecting customer churn.**
 
-Internet_Service
+Customers experiencing poor connectivity are more likely to leave.
 
-Payment_Method
+---
 
-🧹 Data Preprocessing
+## 💼 Business Recommendations
+- Improve internet service quality
+- Offer retention discounts
+- Provide loyalty benefits
+- Monitor high-risk customers proactively
 
-Checked for missing values
+---
 
-Applied Label Encoding to categorical variables
+## 🛠️ Tech Stack
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
 
-Applied Standard Scaling to numerical features
+---
 
-Split dataset into Training and Testing sets (Train-Test Split)
+## 🚀 Project Workflow
+1. Data Collection
+2. Data Cleaning
+3. Encoding & Scaling
+4. Model Training
+5. Model Evaluation
+6. Insight Generation
 
-🤖 Models Used
-1️⃣ Logistic Regression
+---
 
-Used for classification
-
-Interpretable model (Coefficient analysis)
-
-Helped identify key churn factors
-
-2️⃣ Random Forest Classifier
-
-Ensemble learning method
-
-Handles non-linearity well
-
-Provides feature importance
-
-📊 Model Evaluation Metrics
-
-Confusion Matrix
-
-Accuracy Score
-
-Precision
-
-Recall
-
-F1-Score
-
-🔍 Key Insight
-
-After analyzing the Logistic Regression coefficients:
-
-Poor Internet Service was identified as the most influential factor affecting customer churn.
-
-Customers experiencing poor internet connectivity are more likely to leave the telecom company.
