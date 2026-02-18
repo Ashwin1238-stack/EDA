@@ -1,97 +1,89 @@
-# 📊 Job Market Analysis Project
+📊 Telecom Customer Churn Prediction
+📌 Project Overview
 
----
+This project focuses on predicting customer churn for a Telecom company using Machine Learning models. The main objective is to identify key factors influencing churn and provide actionable business insights.
 
-## 📌 Project Overview
+Customer churn prediction helps telecom companies reduce customer loss and improve retention strategies.
 
-This project analyzes a **Job Market dataset** using Python to understand:
+🎯 Objective
 
-- Job demand trends  
-- Salary distribution  
-- Hiring patterns  
-- Experience-level insights  
+Predict whether a customer will churn or not.
 
-The goal is to extract meaningful insights that help job seekers and organizations understand current market trends.
+Apply data preprocessing techniques (Encoding & Scaling).
 
----
+Train and evaluate Logistic Regression and Random Forest models.
 
-## 🎯 Objectives
+Identify the most influential feature affecting churn.
 
-- Identify the most demanded job roles  
-- Analyze salary distribution by job title  
-- Study year-wise hiring trends  
-- Analyze job availability by location  
-- Compare experience level with salary range  
+Provide business recommendations based on model insights.
 
----
+📂 Dataset Information
 
-## 📂 Dataset Information
+Total Records: 2500+
 
-The dataset contains the following columns:
+Features: 7 Independent Variables
 
-- Job Title  
-- Location  
-- Salary Range  
-- Experience Level  
-- Year of Posting  
+Target Variable: Churn (Yes / No)
 
----
+🔢 Numerical Features
 
-## 🛠 Technologies Used
+Tenure_Months
 
-- Python  
-- Pandas  
-- NumPy  
-- Matplotlib  
-- Jupyter Notebook  
+Monthly_Charges
 
----
+Total_Charges
 
-## 📈 Key Analysis Performed
+🏷️ Categorical Features
 
-### 1️⃣ Job Demand Analysis
+Contract_Type
 
-Used value counts to identify the most in-demand job roles.
+Internet_Service
 
-### 2️⃣ Salary Analysis
+Payment_Method
 
-Compared salary ranges across different job titles.
+🧹 Data Preprocessing
 
-### 3️⃣ Location-wise Distribution
+Checked for missing values
 
-Analyzed which cities have the highest job opportunities.
+Applied Label Encoding to categorical variables
 
-### 4️⃣ Year-wise Hiring Trend
+Applied Standard Scaling to numerical features
 
-Visualized hiring growth over different years.
+Split dataset into Training and Testing sets (Train-Test Split)
 
-### 5️⃣ Experience vs Salary Analysis
+🤖 Models Used
+1️⃣ Logistic Regression
 
-Compared salary distribution across experience levels.
+Used for classification
 
----
+Interpretable model (Coefficient analysis)
 
-## 📊 Project Insights
+Helped identify key churn factors
 
-- Certain job roles show significantly higher demand  
-- Metro cities have higher job availability  
-- Salary increases with experience level  
-- Hiring trends vary year by year  
+2️⃣ Random Forest Classifier
 
----
+Ensemble learning method
 
-## ✅ Conclusion
+Handles non-linearity well
 
-This project provides structured insights into job market trends and helps:
+Provides feature importance
 
-- 🎓 Job seekers identify high-demand roles  
-- 🏢 Companies understand hiring patterns  
-- 📈 Analysts explore salary and location trends  
+📊 Model Evaluation Metrics
 
----
+Confusion Matrix
 
-## 🚀 Future Enhancements
+Accuracy Score
 
-- Build interactive dashboard using Power BI or Streamlit  
-- Implement salary prediction using Machine Learning  
-- Deploy project using Streamlit Cloud  
+Precision
+
+Recall
+
+F1-Score
+
+🔍 Key Insight
+
+After analyzing the Logistic Regression coefficients:
+
+Poor Internet Service was identified as the most influential factor affecting customer churn.
+
+Customers experiencing poor internet connectivity are more likely to leave the telecom company.
