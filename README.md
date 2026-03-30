@@ -1,99 +1,76 @@
-# 📊 Telecom Customer Churn Prediction
+# 📊 Retail Sales Data Analysis Project
 
 ## 📌 Project Overview
-This project predicts customer churn for a Telecom company using Machine Learning models.
-The goal is to identify key factors influencing churn and provide actionable business insights.
+This project focuses on analyzing a retail sales dataset to extract meaningful insights about customer behavior, product performance, and revenue generation. The analysis helps businesses make data-driven decisions to improve sales and marketing strategies.
 
 ---
 
 ## 🎯 Objective
-- Predict customer churn (Yes / No)
-- Perform Encoding and Feature Scaling
-- Train Logistic Regression and Random Forest models
-- Evaluate models using classification metrics
-- Identify the most impactful feature affecting churn
+- To perform Exploratory Data Analysis (EDA) on retail sales data  
+- To identify key revenue-generating customer segments  
+- To analyze product category performance  
+- To provide actionable business insights  
 
 ---
 
-## 📂 Dataset Details
-- Total Records: 2500+
-- Features: 7 Independent Variables
-- Target: Churn
-
-### Numerical Features
-- Tenure_Months
-- Monthly_Charges
-- Total_Charges
-
-### Categorical Features
-- Contract_Type
-- Internet_Service
-- Payment_Method
+## 🛠️ Tools & Technologies Used
+- Python 🐍  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- Jupyter Notebook  
 
 ---
 
-## 🧹 Data Preprocessing
-- Checked missing values
-- Applied Label Encoding
-- Applied Standard Scaling
-- Performed Train-Test Split
+## 📂 Dataset Description
+The dataset contains:
+- Customer demographics (Gender, Age)  
+- Product categories (Beauty, Clothing, Electronics)  
+- Sales and revenue details  
+- Pricing information  
 
 ---
 
-## 🤖 Models Used
-
-### 1. Logistic Regression
-- Used for classification
-- Interpretable via coefficient analysis
-
-### 2. Random Forest Classifier
-- Ensemble model
-- Provides feature importance
+## 🔍 Analysis Performed
+- Data Cleaning and Preprocessing  
+- Exploratory Data Analysis (EDA)  
+- Revenue Analysis by Gender  
+- Age Group Segmentation  
+- Product Category Analysis  
+- Pricing Analysis  
 
 ---
 
-## 📊 Evaluation Metrics
-- Confusion Matrix
-- Accuracy Score
-- Precision
-- Recall
-- F1-Score
+## 📈 Key Insights
+- 👩 Female customers generate the highest revenue  
+- 🎯 Target customer age group is around 40 years  
+- 💄 Beauty products generate the highest revenue  
+- 👕 Clothing category has the highest sales volume  
+- 💻 Electronics products have higher prices compared to other categories  
 
 ---
 
-## 🔍 Key Insight
-Logistic Regression coefficient analysis revealed that:
-
-**Poor Internet Service is the most influential factor affecting customer churn.**
-
-Customers experiencing poor connectivity are more likely to leave.
-
----
-
-## 💼 Business Recommendations
-- Improve internet service quality
-- Offer retention discounts
-- Provide loyalty benefits
-- Monitor high-risk customers proactively
+## 💡 Business Recommendations
+- Focus marketing campaigns on female customers  
+- Target customers around the age of 40  
+- Increase inventory for clothing products  
+- Promote beauty category products for higher revenue  
+- Re-evaluate pricing strategies for electronics  
 
 ---
 
-## 🛠️ Tech Stack
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Matplotlib
+## 📊 Project Workflow
+1. Import dataset  
+2. Data cleaning and preprocessing  
+3. Perform EDA  
+4. Analyze customer behavior  
+5. Generate insights  
+6. Provide business recommendations  
 
 ---
 
-## 🚀 Project Workflow
-1. Data Collection
-2. Data Cleaning
-3. Encoding & Scaling
-4. Model Training
-5. Model Evaluation
-6. Insight Generation
-
----
-
+## 🚀 How to Run the Project
+1. Clone the repository  
+```bash
+git clone https://github.com/your-username/retail-sales-analysis.git
